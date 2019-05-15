@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Arvo|Dosis|Gugi|Just+Another+Hand|Montserrat|Nunito|Nunito+Sans|Roboto+Condensed|Roboto+Mono|Slabo+27px|Source+Sans+Pro');
+
+html,body{
+    height:100%;
+    width:100%;
+    color:#444;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-color:rgb(204, 204, 255);
+}
+.needs-validation{
+    width:50%;
+    float:right;
+    padding-top:7%;
+    padding-right:50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-row input[type="text"]
+{
+  border:none;
+ border-bottom:1px solid #fff;
+ background:transparent;
+ outline:none;
+ height:40px;
+ color:#cc3300;
+ font-size:16px;
+}
+
+.form-row input[type="email"]
+{
+  border:none;
+ border-bottom:1px solid #fff;
+ background:transparent;
+ outline:none;
+ height:40px;
+ color:#cc3300;
+ font-size:16px;
+}
+
+.form-row textarea
+{
+  border:none;
+ border-bottom:1px solid #fff;
+ background:transparent;
+ outline:none;
+ height:40px;
+ color:#cc3300;
+ font-size:16px;
+
+}
+
+#button{
+    margin-left:42%;
+}
+
+.connect h2{
+    margin-top:1rem;
+    font-family: 'Just Another Hand', cursive;
+    letter-spacing: .5rem;
+    margin-bottom: 1rem;
+}
+
+.padding{
+    padding-bottom:1rem;
+}
+.social{
+      font-size:50px;
+      letter-spacing:2rem;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-facebook:hover{
+    color:grey;
+}
+
+.fa-twitter:hover{
+    color:red;
+}
+
+.fa-github{
+    color:rgba(39, 37, 37, 0.795);
+}
+.fa-github:hover{
+    color:rgb(57, 212, 10);
+}
+
+.fa-instagram{
+    
+    color:#949494;
+}
+.fa-instagram:hover{
+    color:silver;
+}
+
+.fa-youtube{
+    
+    color:red;
+}
+.fa-youtube:hover{
+    color:#ffff66;
+}
+
+.connect{
+    padding-top:9%;
+}
+
+hr.light{
+    border-top:2px solid whitesmoke;
+    width:55%;
+}
+
+.contact{
+    padding-top:7%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#button1{
+     margin-top:3rem;
+     margin-left:41%;
+}
+
+.btn-lg{
+    border-width:1px;
+    border-radius:12%;
+    font-size:20px;
+    padding:.6rem .9rem;
+    letter-spacing: .2rem;
+}
+
+@media(max-width:1200px){
+    .contact h5{
+        font-size:23px;
+    }
+
+    .contact p{
+        font-size:17px;
+    }
+    .connect h2{
+        font-size:25px;
+    }
+    .social{
+        font-size:35px;
+    }
+    .btn-lg{
+        font-size:15px;
+    }
+
+   .needs-validation{
+        font-size:15px;
+   }
+}
+
+@media(max-width:992px){
+    .contact h5{
+        font-size:19px;
+    }
+
+    .contact p{
+        font-size:15px;
+    }
+    .connect h2{
+        font-size:20px;
+    }
+    .social{
+        font-size:28px;
+    }
+    .btn-lg{
+        font-size:15px;
+    }
+
+   .needs-validation{
+        font-size:13px;
+   }
+}
+
+@media(max-width:768px){
+    .contact h5{
+        font-size:14px;
+    }
+
+    .contact p{
+        font-size:11px;
+    }
+    .connect h2{
+        font-size:18px;
+    }
+    .social{
+        font-size:20px;
+    }
+    .btn-lg{
+        font-size:13px;
+    }
+    
+    #button{
+    margin-left:27%;
+    }
+
+
+   .needs-validation{
+        font-size:12px;
+   }
+   ::-webkit-input-placeholder{
+    font-size:12px;
+}
+
+::-moz-input-placeholder{
+ font-size:12px;
+}
+::-ms-input-placeholder{
+    font-size:9px;
+   }
+   ::-ms-input-placeholder{
+    font-size:9px;
+   }
+}
+
+@media(max-width:576px){
+    .contact h5{
+        font-size:12px;
+    }
+
+    .contact p{
+        font-size:10px;
+    }
+    .connect h2{
+        font-size:16px;
+    }
+    .social{
+        font-size:17px;
+    }
+    .btn-lg{
+        font-size:13px;
+    }
+    
+    #button{
+    margin-left:10%;
+    }
+
+
+   .needs-validation{
+        font-size:10px;
+   }
+   ::-webkit-input-placeholder{
+       font-size:10px;
+   }
+
+   ::-moz-input-placeholder{
+    font-size:10px;
+   }
+   ::-ms-input-placeholder{
+    font-size:9px;
+   }
+}
+
+@media(max-width:360px){
+    .contact h5{
+        font-size:9px;
+    }
+
+    .contact p{
+        font-size:8px;
+    }
+    .connect h2{
+        font-size:12px;
+    }
+    .social{
+        font-size:13px;
+    }
+    .btn-lg{
+        font-size:11px;
+    }
+    
+    #button{
+    margin-left:8%;
+    }
+
+
+   .needs-validation{
+        font-size:9px;
+   }
+   ::-webkit-input-placeholder{
+       font-size:9px;
+   }
+
+   ::-moz-input-placeholder{
+    font-size:9px;
+   }
+   ::-ms-input-placeholder{
+    font-size:9px;
+   }
+}

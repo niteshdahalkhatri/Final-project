@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Arvo|Dosis|Gugi|Just+Another+Hand|Montserrat|Nunito|Nunito+Sans|Roboto+Condensed|Roboto+Mono|Slabo+27px|Source+Sans+Pro');
+
+html,body{
+    height:100%;
+    width:100%;
+    color:#444;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    padding:0px;
+}
+.navbar{
+    padding:0.8rem;
+    background-color:rgba(140,151,168,0.8);
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fcf4d8;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:Gold;
+}
+.navbar-nav li{
+    padding-right:30px;
+}
+
+.navbar-link{
+    font-size:1.8rem;
+}
+
+.navbar-brand img{
+    height:35px;
+    width:280px;
+}
+
+
+.jumbotron{
+    border-radius:0;
+    padding:3rem 0 2rem;
+}
+
+h3.display-4{
+    font-size:80px;
+    font-weight:700;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom:50px;
+}
+
+.images img{
+     max-width:100%;
+     transition: transform .5s ease;
+    
+}
+
+.row.no-padding [class*=col-]{
+    padding:0;
+}
+
+.images img:hover{
+    transform: scale(1.1);
+    cursor:zoom-in;
+
+}
+.images{
+    overflow: hidden;
+}
+
+.narrow{
+    width:75%;
+    margin:0 auto;
+    padding-top:2rem;
+}
+.btn-md{
+    border-width:medium;
+    border-radius: 0;
+    padding:.6rem 1.1rem;
+    margin:1rem;
+}
+
+[class*="col-"] {
+    padding: 1rem;
+  }
+  
+  .row, .container-fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .production hr{
+    width:95%;
+    border-top:2px solid #26282a;
+    margin-top: -3rem;
+    margin-bottom:.6rem;
+}
+
+.jumbotron hr{
+    width:95%;
+    border-top:2px solid #26282a;
+    margin-top: .4rem;
+    margin-bottom:1rem;
+}
+
+.lead p{
+    margin-top:-2rem;
+    margin-bottom:-1rem;
+}
+
+h4.display-4{
+    font-size:80px;
+    font-weight:200;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom:50px;
+}
+
+.connect h2{
+    margin-top:1rem;
+    font-family: 'Just Another Hand', cursive;
+    letter-spacing: .5rem;
+    margin-bottom: -1rem;
+}
+
+.social{
+      font-size:80px;
+      letter-spacing:2rem;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-facebook:hover{
+    color:grey;
+}
+
+.fa-twitter:hover{
+    color:red;
+}
+
+.fa-github{
+    color:rgba(39, 37, 37, 0.795);
+}
+.fa-github:hover{
+    color:rgb(57, 212, 10);
+}
+
+.fa-instagram{
+    
+    color:#949494;
+}
+.fa-instagram:hover{
+    color:silver;
+}
+
+.fa-youtube{
+    
+    color:red;
+}
+.fa-youtube:hover{
+    color:rgb(236, 13, 117);
+}
+
+footer{
+    background-color:#8c97a8;
+    color:whitesmoke;
+    padding-top:2rem;
+}
+hr.light{
+    border-top:2px solid whitesmoke;
+    width:50%;
+}
+
+hr.light1{
+    border-top:4px solid #bbd3de;
+    width:100%;
+}
+
+@media(min-width:700px) and (max-width:880px){
+    .production .display-4{
+        font-size:50px;
+    }
+    .display-4{
+        font-size:50px;
+    }
+    .social{
+        font-size:60px;
+    }
+    .navbar-brand img{
+        height:35px;
+        width:170px;
+    }
+}
+
+@media(min-width:500px) and (max-width:700px){
+    .production .display-4{
+        font-size:40px;
+    }
+    .lead p{
+        font-size:20px;
+    }
+    .display-4{
+        font-size:40px;
+    }
+    .social{
+        font-size:40px;
+    }
+    .navbar-brand img{
+        height:35px;
+        width:160px;
+    }
+}
+
+@media(min-width:300px) and (max-width:500px){
+
+    .lead p{
+        font-size:15px;
+    }
+    .display-4{
+        font-size:30px;
+    }
+
+    .social{
+        font-size:30px;
+    }
+    .production .display-4{
+        font-size:30px;
+    }
+    .navbar-brand img{
+        height:35px;
+        width:140px;
+    }
+}

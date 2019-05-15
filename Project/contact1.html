@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+                <title>TEA LOVERS</title>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta name="description" content="">
+                <meta name="author" content="Nitesh Dahal Khatri">
+                <link href="css/style6.css" rel="stylesheet"> 
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+                <link rel="icon" href="logo/logo.ico">
+                <script>
+        
+                    (function() {
+                      'use strict';
+                      window.addEventListener('load', function() {
+                        var forms = document.getElementsByClassName('needs-validation');
+                        var validation = Array.prototype.filter.call(forms, function(form) {
+                          form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                              event.preventDefault();
+                              event.stopPropagation();
+                            }
+                    
+                             if (form.checkValidity() === false){
+                                    alert("Please fill every box ")
+                            }
+    
+                            if (form.checkValidity() === true){
+                                    alert("Thank you for contacting us: we will reply you as soon as possible!!")
+                            }
+                    
+                            form.classList.add('was-validated');
+                          }, false);
+                        });
+                      }, false );
+                    })();
+                    </script>
+
+</head>
+<body>
+   
+        <form class="needs-validation" novalidate>
+                <div class="container-fluid ">
+          <div class="form-row">
+            <div class="col-xl-6 mb-3">
+              <label for="validationCustom01">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder=" Write your first name here*"  required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                  Please write your first name!
+                </div>
+            </div>
+            <div class="col-xl-6 mb-3">
+              <label for="validationCustom02">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder=" Write your last name here*"  required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                  Please write your last name!
+                </div>
+            </div>
+            <div class="col-xl-12 mb-3">
+              <label for="validationCustomUsername">Email</label>
+              <div class="input-group">
+                   <input type="email" class="form-control" id="validationCustomUsername" placeholder="valid email address here*" required>
+                <div class="invalid-feedback">
+                  Please give a valid email address.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-xl-12 mb-3">
+              <label for="validationCustom03">Address</label>
+              <input type="text" class="form-control" id="validationCustom03" placeholder="write your address here*" required>
+              <div class="valid-feedback">
+                  Looks good!
+                </div>
+              <div class="invalid-feedback">
+                Please provide a valid address.
+              </div>
+            </div>
+            <div class="col-xl-6 mb-3">
+              <label for="validationCustom04">country</label>
+              <input type="text" class="form-control" id="validationCustom04" placeholder="write your country here*" required>
+              <div class="valid-feedback">
+                  Looks good!
+                </div>
+              <div class="invalid-feedback">
+                Please provide us the city you are from.
+              </div>
+            </div>
+            <div class="col-xl-6 mb-3">
+              <label for="validationCustom05">Number</label>
+              <input type="text" class="form-control" id="validationCustom05" placeholder="your number here*" required>
+              <div class="valid-feedback">
+                  Looks good!
+                </div>
+              <div class="invalid-feedback">
+                Please provide a valid number.
+              </div>
+            </div>
+            <div class="col-xl-12 mb-3">
+                    <label for="validationTextarea">Information box</label>
+                    <textarea class="form-control" id="validationTextarea" placeholder="Please enter the information you want to give us*" required></textarea>
+                    <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    <div class="invalid-feedback">
+                      Please enter a message in the information area.
+                    </div>
+                  </div>
+                  </div>
+           
+          <button id="button" class="btn btn-outline-dark btn-lg" type="submit">SUBMIT</button>
+         
+         
+          </div>
+        </form>
+       
+        <div class="container-fluid padding">
+          <div class="row contact text-center">
+                  <div class="col-xl-6">
+                       <h5>CUSTOMER SUPPORT</h5>
+                       <hr class="light">
+                       <p>email:kdevitea@gmail.com</p>
+                       <p>+9779852671361</p>
+                       <p>Haldibari-2</p>
+                       <p>Jhapa, Nepal</p>
+                  </div>
+
+                  <div class="col-xl-6">
+                                  <h5>SERVICE HOURS</h5>
+                                  <hr class="light">
+                                  <p>Monday-Friday: 24x7</p>
+                                  <p>Satuarday: 4am - 10pm</p>
+                                  <p>Holidays are excluded</p>
+                          </div>     
+          </div>
+  </div>
+
+        <div class="container-fluid padding">
+          <div class="row text-center padding">
+                  <div class="col-12 connect">
+                          <h2> FOLLOW US</h2>
+                  </div>
+                  <div class="col-12 social padding">
+                      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                      <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+          </div>
+ </div> 
+        
+        <a href="contact.html" id="button1" class="btn btn-outline-dark btn-lg" >GO BACK</a>
+         
+      
+                    
+        </body>
+          
+        </html>
